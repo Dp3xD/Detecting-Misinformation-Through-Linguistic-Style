@@ -1,0 +1,30 @@
+# Core ML
+torch>=2.1.0
+scikit-learn>=1.3.0
+xgboost>=2.0.0
+
+# HuggingFace stack
+datasets>=2.14.0
+transformers>=4.41.0
+accelerate>=0.24.0
+
+# NLP tools
+nrclex>=3.0.0
+spacy>=3.6.0
+nltk>=3.8.0
+
+# Explainability
+shap>=0.44.0
+
+# Data / plotting
+pandas>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+requests>=2.31.0
+
+# -------------------------------------------------------
+# Post-install steps (run once after pip install -r requirements.txt):
+#   python -m spacy download en_core_web_sm
+#   python -c "import nltk; nltk.download('punkt'); nltk.download('punkt_tab')"
+# -------------------------------------------------------

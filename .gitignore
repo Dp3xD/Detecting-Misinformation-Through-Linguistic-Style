@@ -1,0 +1,10 @@
+venv/
+data/liar_*.tsv
+data/features_*.npy
+data/features_meta_*.npy
+data/distilbert_checkpoints/
+__pycache__/
+*.pyc
+.DS_Store
+results/
+*.egg-info/
